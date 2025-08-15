@@ -7,7 +7,7 @@ A single-page WebGL demo showcasing **fBm**, **Voronoi/Worley noise**, and **dom
 - `app.js` — WebGL plumbing + UI wiring
 
 ## How to run
-Just open `index.html` in a modern browser. No build step, no dependencies.
+Clone repository and open `index.html` in a browser.
 
 ## Controls
 - **Mode**: switch between the composite lava and its building blocks (fBm, Voronoi, crack mask, warp).
@@ -23,6 +23,3 @@ Just open `index.html` in a modern browser. No build step, no dependencies.
 - The shader uses **value noise** for simplicity (fast and good-looking). You can swap in gradient or simplex noise if desired.
 - Looping supports up to 8 octaves; extra octaves are gated by a uniform.
 - The app is DPI-aware and resizes automatically.
-=======
-# web-lava-demo
-A web demo of a moving lava texture using fractal Brownian motion and Voronoi cells.
